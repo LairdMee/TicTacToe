@@ -1,0 +1,9 @@
+.square {
+  border: 6px solid #263642;
+  background-color: inherit;
+  color: inherit;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+.board {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #34495a;
+  color: #fff; /* text color*/
+  border: 6px solid #263642;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.board-game-over {
+  /* when the game is over, apply this class, color of the board changes,indicating a winner*/
+  color: #000; /* text color*/
+  background-color: #cfa329;
+  border: 6px solid #8a8437;
+}
